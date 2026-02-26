@@ -48,3 +48,31 @@ const fruits =["Apple", "Banana", "Cherry"];
 console.log(fruits[0])
 console.log(fruits[1])
 console.log(fruits[2])
+
+// object inside an array
+const students = [
+    {name: "Brian", age: 19},
+    {name:"Fred", age: 18}
+]
+// accessing the items
+console.log(students[0].age)
+
+// array inside an object
+const company = {
+    name: "Tech solutions",
+    employees: ["Alice","Alex","George"]
+}
+// accessing the items
+console.log(company.employees[2])
+
+// what is the difference between a dictionary in python,an object in javascript and a json data when dealing with APIs.
+
+
+
+// mapping an object to a python dictionary
+const jsobject = {
+    name : "John",
+    age : 26,
+    city : "Tunis"
+};
+const jsonString =JSON.stringify(jsobject);
