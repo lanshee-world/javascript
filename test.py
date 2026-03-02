@@ -1,10 +1,11 @@
 import json
 # assuming jsonString is the variable holding the data received from javascript
-jsonString = {
+jsonString= {
     "name" : "John",
     "age" : "26",
     "city" : "Tunis"
     }
-python_dict = json.loads(jsonString)
+print(jsonString["name"])
+python_dict = json.dumps(jsonString)
 
-print(python_dict["age"])
+print(python_dict)

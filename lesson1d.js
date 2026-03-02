@@ -76,3 +76,4 @@ const jsobject = {
     city : "Tunis"
 };
 const jsonString =JSON.stringify(jsobject);
+console.log(jsonString)

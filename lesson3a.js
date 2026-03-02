@@ -20,7 +20,7 @@ for (let i = 0; i <= 10;i++){
 
 // create a for loop that is able to print out all the leap years from 2000 to 2026
 for (let i = 2000; i <= 2026; i++){
-    if(i % 400 == 0){
+    if(i % 400 === 0 || i % 4 === 0 && i % 100 != 0){
         console.log("This is a leap year:", i)
     }
     
