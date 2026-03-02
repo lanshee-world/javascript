@@ -67,7 +67,7 @@ console.log(company.employees[2])
 
 // what is the difference between a dictionary in python,an object in javascript and a json data when dealing with APIs.
 
-
+// python dictionaries and java script objects are in-memory data structures specific to their respective programming languages (are used within your program's memory to store key-value pairs as they can store complex data types specific to their language) while JSON is a language-independent text-based data interchange format used for communication between different systems like APIs (is a string-based format,a standardized text representation of data.It is language-agnostic,meaning any programming language can read and write it.)
 
 // mapping an object to a python dictionary
 const jsobject = {
