@@ -12,6 +12,11 @@ greet();
     console.log("Welcome to the world of programming...")
 })();
 
+
+
+
+
+
 // read on arrow functions with and without parameters and research on modules in javascript.
 // arrow functions without parameters
 const greeting = () => console.log("Hello!");
@@ -38,3 +43,5 @@ const add = (a, b) => a + b;
 // usage in browser: to use native ES modules in a browser, you must include the type="module" attribute in your <script> tag.
 // HTML
 // <script type="module" src="main.js"></script>
+
+export {square, double}; 
